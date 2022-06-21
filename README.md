@@ -4,7 +4,7 @@ Don't want to have linktree watermarks? This app, made colorful and bright may b
 Inspired by linktree, for personal use and non-business
 
 # Live Deployments
-- DEMO template [https://serenuy.github.io/social-links/]
+- DEMO template [https://serenuy.github.io/Social-Links/]
 - Mine [https://serenuy-links.netlify.app/]
 
 # Free-to-use
