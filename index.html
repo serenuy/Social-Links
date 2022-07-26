@@ -3,7 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CDN -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,10 +14,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 	<!-- Animate CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-	<!-- Icons -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 	<!-- Custom CSS -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Social Media</title>
 </head>
 <body>
@@ -22,12 +23,10 @@
 		<source src="https://cdn.videvo.net/videvo_files/video/free/2013-08/large_watermarked/hd0969_preview.mp4" type="video/mp4">
 	</video>
 	<div class="container">
-		<button type="button" id="playMusic" class="btn btn-light"><i class="bi bi-play-fill"></i></button>
-		<audio id="mySong" type="audio/mp3" src="yoursonggoeshere.mp3"></audio>
 		<div class="image-box">
 			<img src="avatar.jpg">
-			<h5>Oye! Es Serena :)</h5>
-			<em>Front-End Developer, Gamer, Lover of cats</em><br>
+			<h5>It's [Name]</h5>
+			<em>[Short description]</em><br>
 			<div class="cat">
 			    ฅ^•ﻌ•^ฅ
 			</div>
@@ -38,34 +37,16 @@
 			<a href="#" class="btn btn-dark btn-lg" target="_blank"><i class="bi bi-discord"></i> Discord Server</a><br>
 			<a href="#" class="btn btn-dark btn-lg" target="_blank"><i class="bi bi-instagram"></i> Art Instagram</a><br>
 			<a href="#" class="btn btn-dark btn-lg" target="_blank"><i class="bi bi-instagram"></i> Personal Instagram</a><br>
+			<!-- Should remove below anchor -->
 			<a href="#" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#card_modal"><i class="bi bi-chat-square-heart"></i> Want a website built or business inquiries?</a>
 		</div>
 		<footer>
-			Made by <a href="#" target="_blank"><strong>Serena</strong></a><br>
-			<h1 class="animate__animated animate__jello animate__slow animate__infinite heart-icon">🎮</h1>
+			Made by <a href="https://github.com/serenuy/Social-Links" target="_blank"><strong>Serena</strong></a><br>
+			<h1>🎮</h1>
 		</footer>
 	</div>
 
-	<div class="modal fade" id="card_modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content rounded-0">
-	      <div class="modal-header">
-	        <h5 class="modal-title" id="ModalLabel">Contact</h5>
-	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-	      </div>
-	      <div class="modal-body">
-	        <em>
-	        	The only best way to contact me is via email: 
-	        	email@email.edu or shoot me a DM via my personal instagram.<br>
-	        	My response time is usually quicker on instagram.
-	        </em>
-	        	<p class="push-right">Thanks for stopping by :)</p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+	<!-- Should remove modal completely unless customizing -->
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
